@@ -1,0 +1,29 @@
+<!-- Navigation Bar -->
+<!-- ============== -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <header class="header-hidden">
+    <h2>Menú de Navegación</h2>
+  </header>
+
+  <div class="container-fluid" style="padding-top: 10px; padding-bottom: 10px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="rest-button">
+	<button class="btn btn-default" onclick="createCareerDivs()">
+	  Reiniciar Consulta
+	</button>
+      </div>
+    </div><!--/ navbar-header -->
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ "#banner" | prepend: site.baseurl }}">INICIO</a></li>
+      </ul>
+    </div><!--/ collapse navbar-collapse -->
+  </div><!--/ container-fluid -->
+</nav>

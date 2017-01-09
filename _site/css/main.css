@@ -1,0 +1,246 @@
+/* Personal CSS */
+
+/* Authors: @fnbellomo
+ */
+
+/****************************************
+ * Base structure
+ ****************************************/
+body {
+    font-family: Helvetica, Arial;
+    position: relative;
+}
+
+.site-name {
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.50;
+    color: #333333;
+    text-align: center;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.list-icons li {
+    padding: 0 0 15px 0;
+}
+
+blockquote {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title {
+    margin-top: 0;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.header-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+}
+/****************************************
+ * NavBar
+ ****************************************/
+.navbar-inverse {
+    background-color: #000;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+
+.navbar-custom {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    font-weight: bold;
+}
+
+.rest-button {
+    display: none;
+    margin-top: 8px;
+}
+/****************************************
+ * Main page
+ ***************************************/
+#banner {
+    background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+}
+
+#banner > div {
+    padding-top: 15%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#banner h2 {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 15px;
+    font-size: 2.25em;
+}
+
+#schedules .container-fluid {
+    padding: 0px;
+}
+
+#schedules .container-fluid .row {
+    padding: 0px;
+    margin: 0px;
+}
+/****************************************
+ * Buttons
+ ***************************************/
+.carrer {
+    /* height */
+    padding: 4em 3em 2em 3em;
+    height: 30vh;
+    max-height: 30em;
+    min-height: 20em;
+
+    /* image cover */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Transition effect */
+    transform: scale(0);
+    transition: all 1s ease;
+
+    cursor: pointer;
+}
+
+.carrer-0 {
+    background-image:url('../imgs/pic00.jpg');
+}
+
+.carrer-1 {
+    background-image:url('../imgs/pic01.jpg');
+}
+
+.carrer-2 {
+    background-image:url('../imgs/pic02.jpg');
+}
+
+.firstButtons article::before {
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.firstButtons article:hover::before {
+    opacity: 0;
+}
+
+.firstButtons .carrer-0::before {
+    background-color: #6fc3df;
+}
+
+.firstButtons .carrer-1::before {
+    background-color: #8d82c4;
+}
+
+.firstButtons .carrer-2::before {
+    background-color: #ec8d81;
+}
+
+
+article header {
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+    text-align: left;
+}
+
+article h3 {
+    font-size: 1.75em;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.95);
+}
+
+header.major > p {
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.year, .subjects, .teaching {
+    padding: 4em 1em;
+
+    /* Transition effect */
+    transform: scale(0);
+    transition: all 1s ease;
+
+    cursor: pointer;
+}
+
+/****************************************
+ * Footer
+ ***************************************/
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-texto {
+    text-align: center;
+}
+
+.footer-texto > p {
+    margin-bottom: 0px;
+}
+
+.footer-texto > p > strong {
+    color: #e62b1e;
+}

@@ -1,0 +1,260 @@
+{
+    "Contador Público": {
+	"Primer Año": {
+	    "Análisis Matemático I": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Metodología de la Ciencias": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Principios de Administración": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Segundo Año": {
+	    "Álgebra Lineal": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Principios de Economía II": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistemas de Información Contable": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sociología": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Tercer Año": [],
+	"Cuarto Año": [],
+	"Quinto Año": []
+    },
+    "Licenciatura en Administración": {
+	"Primer Año": {
+	    "Análisis Matemático I": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Metodología de la Ciencias": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Principios de Administración": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Segundo Año": {
+	    "Álgebra Lineal": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Principios de Economía II": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistemas de Información Contable": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sociología": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Tercer Año": [],
+	"Cuarto Año": [],
+	"Quinto Año": []
+    },
+    "Licenciatura en Economía": {
+	"Primer Año": {
+	    "Análisis Matemático I": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Metodología de la Ciencias": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Principios de Administración": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Segundo Año": {
+	    "Álgebra Lineal": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Principios de Economía II": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistemas de Información Contable": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sociología": [{
+		"docente": "Spam 1",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Tercer Año": [],
+	"Cuarto Año": [],
+	"Quinto Año": []
+    }
+}
