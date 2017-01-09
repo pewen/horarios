@@ -105,6 +105,32 @@ p {
     color: #ffffff;
 }
 
+/* Tablets */ 
+@media only screen and (max-width : 768px) {
+    #banner {
+	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/banner_sm.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	color: #ffffff;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #banner {
+	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/banner_xs.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	color: #ffffff;
+    }
+}
+
 #banner > div {
     padding-top: 15%;
     text-align: left;
