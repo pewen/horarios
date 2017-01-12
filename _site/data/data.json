@@ -2,34 +2,34 @@
     "Contador Público": {
 	"Primer Año": {
 	    "Análisis Matemático I": [{
-		"docente": "Spam 1",
+		"docente": "Juan",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Spam",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Metodología de la Ciencias": [{
-		"docente": "Spam 1",
+		"docente": "Roberto",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Pedro",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Principios de Administración": [{
-		"docente": "Spam 1",
+		"docente": "Nico",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Ignacio",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
@@ -37,85 +37,209 @@
 	},
 	"Segundo Año": {
 	    "Álgebra Lineal": [{
-		"docente": "Spam 1",
+		"docente": "Franco",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Andrea",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Principios de Economía II": [{
-		"docente": "Spam 1",
+		"docente": "Jere",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Lorena",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Sistemas de Información Contable": [{
-		"docente": "Spam 1",
+		"docente": "Daniel",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Arnoldo",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Sociología": [{
-		"docente": "Spam 1",
+		"docente": "Vale",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Bella",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }]
 	},
-	"Tercer Año": [],
-	"Cuarto Año": [],
-	"Quinto Año": []
+	"Tercer Año": {
+	    "Estadistica Aplicada": [{
+		"docente": "Charli",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Eve",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistmas de Información Contable II": [{
+		"docente": "Claudia",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Maria",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Tecnología de la Información": [{
+		"docente": "Mauri",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Enzo",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Derecho Privado I": [{
+		"docente": "Mirta",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Carmelo",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Cuarto Año": {
+	    "Investigación Operativa": [{
+		"docente": "Eduardo",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Sara",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistemas de Costos": [{
+		"docente": "Mariana",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Olga",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Derecho y Practicas Laborales": [{
+		"docente": "Luis",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Pilar",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sociedades Comerciales": [{
+		"docente": "Alan",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Rose",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Quinto Año": {
+	    "Auditoría": [{
+		"docente": "Monica",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Chandler",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Análisis e Interpretación de estados contables": [{
+		"docente": "Rachel",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Phebe",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Teoría y Técnica Impositiva II": [{
+		"docente": "Joy",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Ross",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	}
     },
     "Licenciatura en Administración": {
 	"Primer Año": {
 	    "Análisis Matemático I": [{
-		"docente": "Spam 1",
+		"docente": "Sansa",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Arhya",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Metodología de la Ciencias": [{
-		"docente": "Spam 1",
+		"docente": "Jonh",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Snow",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Principios de Administración": [{
-		"docente": "Spam 1",
+		"docente": "Robe",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Brandom",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
@@ -123,85 +247,220 @@
 	},
 	"Segundo Año": {
 	    "Álgebra Lineal": [{
-		"docente": "Spam 1",
+		"docente": "Ricon",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Stark",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Principios de Economía II": [{
-		"docente": "Spam 1",
+		"docente": "Deamon",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Sheldon",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Sistemas de Información Contable": [{
-		"docente": "Spam 1",
+		"docente": "Leonard",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Penny",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Sociología": [{
-		"docente": "Spam 1",
+		"docente": "Howard",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Amy",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }]
 	},
-	"Tercer Año": [],
-	"Cuarto Año": [],
-	"Quinto Año": []
+	"Tercer Año": {
+	    "Estadística Aplicada": [{
+		"docente": "Berdadette",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Stela",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistemas de Información Contable II": [{
+		"docente": "Samuel",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Carola",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Tecnología de la Información": [{
+		"docente": "Bernardo",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Lucia",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Derecho Empresarial": [{
+		"docente": "Luz",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Goofy",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Cuarto Año": {
+	    "Investigación Operativa": [{
+		"docente": "Jake",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Gooku",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Sistemas de Costos": [{
+		"docente": "Fest",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Judith",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Administración Rural": [{
+		"docente": "Spam 2",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Dickens",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Administración Tributaria y Previsional": [{
+		"docente": "Charlie",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Pablo",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Quinto Año": {
+	    "Comercialización": [{
+		"docente": "Romina",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Claudio",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Administración Económico-Financiero": [{
+		"docente": "Chaza",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Ramiro",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Investigación de Mercado": [{
+		"docente": "Tito",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Leticia",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Comercio Internacional": [{
+		"docente": "Michael",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Roberto",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	}
     },
     "Licenciatura en Economía": {
 	"Primer Año": {
 	    "Análisis Matemático I": [{
-		"docente": "Spam 1",
+		"docente": "Victoria",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Stuart",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Metodología de la Ciencias": [{
-		"docente": "Spam 1",
+		"docente": "Celeste",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Anabel",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Principios de Administración": [{
-		"docente": "Spam 1",
+		"docente": "Esteban",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Gustavo",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
@@ -209,52 +468,165 @@
 	},
 	"Segundo Año": {
 	    "Álgebra Lineal": [{
-		"docente": "Spam 1",
+		"docente": "Elizabeth",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Isabella",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Principios de Economía II": [{
-		"docente": "Spam 1",
+		"docente": "Maris",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Alejandra",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Sistemas de Información Contable": [{
-		"docente": "Spam 1",
+		"docente": "Freddie",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Natalia",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }],
 	    "Sociología": [{
-		"docente": "Spam 1",
+		"docente": "Esequiel",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }, {
-		"docente": "Spam 2",
+		"docente": "Roberto",
 		"cubiculo": "8",
 		"interno": 368,
 		"dias": ["14 a 16", "", "14 a 16", "", ""]
 	    }]
 	},
-	"Tercer Año": [],
-	"Cuarto Año": [],
-	"Quinto Año": []
+	"Tercer Año": {
+	    "Economía, Estado y Sociedad": [{
+		"docente": "Luciano",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Noelia",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Macroeconomía I": [{
+		"docente": "Roxana",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Argentina",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Inferencia Estadística": [{
+		"docente": "Florencia",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Ivan",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Cuarto Año": {
+	    "Macroeconomía II": [{
+		"docente": "Camila",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Betina",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Economía Internacional": [{
+		"docente": "Gisel",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Jesica",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Economía Matemática": [{
+		"docente": "Anahi",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Carola",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	},
+	"Quinto Año": {
+	    "Economía Agraria": [{
+		"docente": "Beatriz",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Enrique",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Finanzas de Empresas": [{
+		"docente": "Jimena",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Mike",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Evaluación de Proyectos (Social y Privada)": [{
+		"docente": "Matias",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Ignacio",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }],
+	    "Política Económica": [{
+		"docente": "Enzo",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }, {
+		"docente": "Micaela",
+		"cubiculo": "8",
+		"interno": 368,
+		"dias": ["14 a 16", "", "14 a 16", "", ""]
+	    }]
+	}
     }
 }
