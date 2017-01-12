@@ -9,7 +9,7 @@ var hideYear     = false;
 var hideSubject  = false;
 var hideTeaching = false;
 
-var selectedCarrer;
+var selectedCareer;
 var selectedYear;
 var selectedSubject;
 var selectedTeaching;
@@ -29,8 +29,57 @@ $.ajax({
     success: function(requestJson) {
 	data = requestJson;
 	createCareerDivs();
+	autoCompleteSearch()
     }
 });
+
+
+// Listener event for search input
+var input = document.getElementById('search-input');
+input.addEventListener('awesomplete-selectcomplete',function(){
+    var input = this.value.split(" - ");
+    selectedSubject = input[1];
+    selectedCareer = input[2];
+
+    for (y in data[selectedCareer]) {
+	for (c in data[selectedCareer][y]) {
+	    if (selectedSubject == c) {
+		selectedYear = y;
+	    }
+	}
+    }
+
+    // Show the teaching div
+    createTeachingDiv();
+    // Show the restart button
+    var restButton = document.getElementsByClassName('rest-button')[0];
+    restButton.style.display = 'block';
+});
+
+
+function autoCompleteSearch() {
+    /*
+      Create the autocomplete input search
+     */
+    var searchTemplate = "{0} - {1} - {2}";
+    var search = [];
+    var input = document.getElementById("search-input");
+
+    // Array of teaching searchs
+    for (career in data){
+	for (year in data[career]) {
+	    for (subject in data[career][year]) {
+		for (teacher of data[career][year][subject]){
+		    var e = searchTemplate.format(teacher['docente'],
+						  subject,career);
+		    search.push(e);
+		}
+	    }
+	}
+    }
+
+    new Awesomplete(input, {list: search});
+}
 
 
 function createCareerDivs() {
@@ -207,6 +256,7 @@ function createTeachingDiv() {
     var html = createHtmlByRow(length, numberRow, rowClass, textFunct);
     addHtmlWithEffect(html, 'teaching');
 }
+
 
 function createHtmlByRow(length, numberRow, rowClass, textFunct) {
     /*

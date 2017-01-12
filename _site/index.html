@@ -24,13 +24,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
   <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!-- Awesomplete CSS -->
+  <link rel="stylesheet" href="/libs/awesomplete/awesomplete.css">
   <!-- Personal CSS -->
   <link rel="stylesheet" href="/css/main.css">
 
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <!-- Format string -->
-  <script src="/js/formatString.js"></script> 
+  <script src="/js/formatString.js"></script>
+  <!-- Awesomplete JS -->
+  <script src="/libs/awesomplete/awesomplete.min.js"></script>
 </head>
 
 
@@ -64,6 +68,16 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="#banner">INICIO</a></li>
+	<!-- Search input -->
+	<li style="padding-top: 8px;">
+	  <div class="form-group has-feedback" style="margin-bottom: 0px;">
+	    <input id="search-input" type="text"
+		   class="form-control"  placeholder="Docente o Materia">
+	    <span class="form-control-feedback">
+	      <i class="fa fa-search"></i>
+	    </span>
+	  </div>
+	</li>
       </ul>
     </div><!--/ collapse navbar-collapse -->
   </div><!--/ container-fluid -->
