@@ -21,6 +21,10 @@ var colors = ['rgba(166,206,227, 0.8)', 'rgba(31,120,180, 0.8)',
 	      'rgba(202,178,214, 0.8)', 'rgba(106,61,154, 0.8)',
 	      'rgba(255,255,153, 0.8)', 'rgba(177,89,40, 0.8)'];
 
+// Clear the input
+var input = document.getElementById("search-input");
+input.value = "";
+
 // Get the json with the data
 $.ajax({
     type: "GET",
@@ -35,12 +39,13 @@ $.ajax({
 
 
 // Listener event for search input
-var input = document.getElementById('search-input');
 input.addEventListener('awesomplete-selectcomplete',function(){
-    var input = this.value.split(" - ");
-    selectedSubject = input[1];
-    selectedCareer = input[2];
+    // Input value
+    var selectedValue = this.value.split(" - ");
+    selectedSubject = selectedValue[1];
+    selectedCareer = selectedValue[2];
 
+    // Search the correct year
     for (y in data[selectedCareer]) {
 	for (c in data[selectedCareer][y]) {
 	    if (selectedSubject == c) {
@@ -54,8 +59,17 @@ input.addEventListener('awesomplete-selectcomplete',function(){
     // Show the restart button
     var restButton = document.getElementsByClassName('rest-button')[0];
     restButton.style.display = 'block';
+
+    // Scroll to schedule div
+    var schedules = document.getElementById("schedules");
+    zenscroll.to(schedules);
 });
 
+// Listener
+var schedules = document.getElementById("schedules");
+schedules.addEventListener('click',function(){
+    zenscroll.to(schedules);
+});
 
 function autoCompleteSearch() {
     /*
@@ -373,7 +387,7 @@ function whichTransitionEvent() {
 // {0}: carrer name
 // {1}: index of background image
 var careerTemplate = `
-<article id="{0}" class="col-md-4 carrer carrer-{1}"
+<article id="{0}" class="col-sm-4 col-md-4 carrer carrer-{1}"
          onclick="hideCarrerDivs('{0}');">
   <header class="major">
     <h3>{0}</h3>
@@ -387,7 +401,7 @@ var careerTemplate = `
 // {1}: background color
 // {2}: name of carrer
 var yearTemplate = `
-<article id="{0}" class="col-md-4 year" style="background:{1}"
+<article id="{0}" class="col-sm-4 col-md-4 year" style="background:{1}"
          onclick="hideYearDivs('{0}')">
   <header class="major">
     <h3>{0}</h3>
@@ -400,7 +414,8 @@ var yearTemplate = `
 // {0}: subjects name
 // {1}: background color
 var subjectsTemplate = `
-<article id="{0}" class="col-md-4 subjects" style="background-color:{1}"
+<article id="{0}" class="col-sm-4 col-md-4 subjects"
+         style="background-color:{1}"
          onclick="hideSubjectsDivs('{0}')">
   <header class="major">
     <h3>{0}</h3>
